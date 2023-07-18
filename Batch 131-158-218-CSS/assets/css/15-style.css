@@ -4,6 +4,21 @@ div.kutu1{
     margin-bottom: 20px;
 }
 div.kutu2{
-    background-color: blueviolet;
+ /*    background-color: blueviolet; */
     padding: 0 5rem 4rem 0;
 }
+
+em{
+    margin: 2rem;
+}
+b{
+    background-color: blue;
+   
+    margin: 20px;
+   
+}
+
+/* Inline elementler dikeyde
+ margin ve padding almazlar
+ sadece yatayda alirlar
+ */
