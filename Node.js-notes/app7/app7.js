@@ -1,4 +1,4 @@
-const Logger = reguire('./logger7');
+const Logger = reguire('./logger');
 const logger = new logger();
 
 //listener kayit et

@@ -24,6 +24,4 @@ Bu kodlar, Node.js ortamında olay yönetimi (event handling) için kullanılan 
 
 Son olarak, `logger.log('mehmethan login oldu')` ifadesi ile `Logger` sınıfının `log` metodu çağrılmıştır. Bu metot içinde, `'connection'` olayı tetiklenir ve bu da `app7.js` dosyasındaki dinleyici fonksiyonunun çalışmasına neden olur. Konsola "Bağlantı kuruldu: { id: 1, message: 'hello' }" mesajı yazdırılır.
 
-Ancak, kod içerisinde bir hata bulunmaktadır. `const logger = new logger();` ifadesinde `logger` küçük harfle başlamalıdır. Doğru şekliyle `const logger = new Logger();` olmalıdır.
-
 */
